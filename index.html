@@ -9,18 +9,18 @@
 <body>
     <header>
         <nav class="container">
-            <div class="logo">Nujoom</div>
+            <a href="index.html" class="logo">Nujoom</a>
             <div class="nav-links">
-                <a href="#features">Features</a>
-                <a href="#about">About</a>
-                <a href="#contact">Contact</a>
+                <a href="features.html">Features</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
             </div>
         </nav>
     </header>
     <main class="container">
         <section class="hero">
             <div class="hero-content">
-                <h1>Connect Brands with Influencers</h1>
+                <h1>Connect Influencers with Brands</h1>
                 <p>Automate and scale influencer activation by collaborating with a large pre-vetted community of micro and nano-influencers</p>
                 <a href="#" class="cta-button">Get Started</a>
             </div>
@@ -43,6 +43,14 @@
             </div>
         </section>
     </main>
+    <div id="emailModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Join the waitinglist</h2>
+            <input type="email" id="emailInput" placeholder="Enter your email" required>
+            <button id="submitEmail" class="submit-button">Submit</button>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
