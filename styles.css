@@ -34,6 +34,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin-top: 50px;
+    gap: 20px; /* Add space between hero content and image */
 }
 .hero-content {
     flex: 1;
@@ -41,6 +42,17 @@ nav {
 .hero-image {
     flex: 1;
     text-align: right;
+    padding-left: 20px; /* Add padding to the left of the image */
+}
+.hero-image img {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 15px; /* Curved corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    transition: transform 0.3s; /* Smooth scaling effect */
+}
+.hero-image img:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
 }
 h1 {
     font-size: 48px;

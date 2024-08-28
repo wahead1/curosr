@@ -15,5 +15,5 @@ function animateValue(id, start, end, duration) {
 document.addEventListener('DOMContentLoaded', (event) => {
     animateValue("visibility-stat", 0, 58, 2000);
     animateValue("trust-stat", 0, 71, 2000);
-    animateValue("community-stat", 0, 100000, 2000);
+    animateValue("community-stat", 0, 20000, 2000);
 });
